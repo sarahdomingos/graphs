@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-#include <queue>
+
 #define INFINITO 9999
 using namespace std;
 
