@@ -7,7 +7,7 @@ Cada pasta de cada algoritmo contém: <br><br>
 <tt>arquivo.cpp</tt> - código fonte escrito em C++;<br>
 <tt>exemplo_de_grafo.dat</tt> - exemplo de entrada em que na primeira linha se encontram, respectivamente, o <b>número de vértices</b>, 
 o <b>número de arestas</b> e o <b>vértice
-inicial</b> (apenas para os algoritmos que exigem essa informação, como Dijkstra). As demais linhas, apresentam as ligações existentes
+inicial</b> (apenas para os algoritmos que exigem essa informação, como Dijkstra). As demais linhas apresentam as ligações existentes
 entre cada par de vértices e seus respectivos pesos, dispostos em três "colunas" de valores;<br>
 <tt>makefile</tt> - arquivo para execução rápida no terminal.
 
@@ -19,7 +19,7 @@ o grafo contido na mesma pasta como input.<br>
 Para <i>compilar sem executar</i> com o grafo de exemplo, digite o comando <tt>make build</tt>. Assim, fica a cargo do usuário executar o programa com a liberdade 
 de inserir outro grafo como input.<br>
 
-Para <i>remover</i> o arquivo gerado pela compilação, digite o comando <tt>make clean</tt>
+Para <i>remover</i> o arquivo gerado pela compilação, digite o comando <tt>make clean</tt>.
 
 
 </p>
