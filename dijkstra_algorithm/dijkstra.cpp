@@ -9,7 +9,6 @@ void imprime_caminho_minimo (vector<int>prev, vector<int>dist) {
     for (int i = 0; i < dist.size(); i++){
         cout << i << "   " << dist[i] << "   " << prev[i] << endl;
     }
-    cout<<endl;
 }
 
 void dijkstra (vector<vector<int> >&w, vector<vector<int> >&adj, int origem) {
