@@ -4,12 +4,32 @@ O objetivo deste projeto é apresentar 4 dos algoritmos estudados na disciplina 
 do curso <b>Ciência da Computação</b> pela <b>Universidade Federal de Alagoas</b>.<br>
 <hr>
 Cada pasta de cada algoritmo contém: <br><br> 
-<tt>arquivo.cpp</tt> - código fonte escrito em C++;<br>
-<tt>exemplo_de_grafo.dat</tt> - exemplo de entrada em que na primeira linha se encontram, respectivamente, o <b>número de vértices</b>, 
+1. <tt>arquivo.cpp</tt> - código fonte escrito em C++;<br><br>
+2. <tt>exemplo_de_grafo.dat</tt> - exemplo de entrada em que na primeira linha se encontram, respectivamente, o <b>número de vértices</b>, 
 o <b>número de arestas</b> e o <b>vértice
 inicial</b> (apenas para os algoritmos que exigem essa informação, como Dijkstra). As demais linhas apresentam as ligações existentes
-entre cada par de vértices e seus respectivos pesos, dispostos em três "colunas" de valores;<br>
-<tt>makefile</tt> - arquivo para execução rápida no terminal.
+entre cada par de vértices e seus respectivos pesos, dispostos em três "colunas" de valores. Exemplo: <br>
+                      
+<kbd>
+6 10 0<br>
+0 1 5<br>
+0 2 6<br>
+0 3 4<br>
+1 2 1<br>
+1 3 2<br>
+2 3 2<br>
+2 4 5<br>
+2 5 3<br>
+3 5 4<br>
+4 5 4 <br>
+</kbd>
+<br>O grafo acima contém 6 vértices, 10 arestas e vértice inicial 0 dada a primeira linha. As demais linhas representam
+as ligações entre u-v e seu respectivo peso.<br>
+<b>Obs: A utilização dos vértices pelo programa se dá pelo intervalo numérico de 0 a N vértices, logo,
+deve-se adotar esse padrão em arquivos de input.
+</b>
+<br><br>
+3. <tt>makefile</tt> - arquivo para execução rápida no terminal.
 
 # Execução dos arquivos
 <p>
